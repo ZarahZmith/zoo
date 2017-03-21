@@ -18,8 +18,10 @@
       }
       this.dob = dateOfBirth;
 
-      this.age = dateOfBirth/(new Date());
+    }
 
+    getAge() {
+      return (new Date()).getFullYear() - this.dob.getFullYear();
     }
 
     toString() {
