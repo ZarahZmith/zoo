@@ -12,14 +12,14 @@
   window.zoo.Meerkat = class Meerkat extends Animal {
 
     /**
-     * Re-establishes the arguments in the parent function in Animal.js
+     * Re-establishes the arguments of the parent function in Animal.js
      */
     constructor(name, dateOfBirth) {
       super(name, dateOfBirth);
     }
 
     /**
-     * Creates a function to constantly return the scientific name of the animal that is not subject to change
+     * Creates a function to constantly return the scientific name of the animal, the scientific name is not subject to change
      */
     static scientificName() {
       return 'Suricata suricatta';
